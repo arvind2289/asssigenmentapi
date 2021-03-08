@@ -57,7 +57,7 @@ class QuestionsAnswer(models.Model):
     question_created = models.DateTimeField(default=timezone.now,db_column="question_created")
 
     def __str__(self):
-        return self.questions.question or ''
+        return self.questions or ''
 
     class Meta:
         db_table = 'questionsanswer'
