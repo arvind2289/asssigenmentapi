@@ -1,0 +1,257 @@
+{
+	"id": "45a0d415-a872-8571-c5b5-1eb442602b63",
+	"name": "assignment",
+	"description": "",
+	"order": [
+		"01922190-4117-a104-ca9e-504e5cbbc982",
+		"8d1b79da-ce0b-c6ea-0b87-89360c8c7b1e",
+		"900cb1e5-e287-30b1-bb7b-b684239c5719",
+		"69959e29-458c-16cd-ef7d-585ca561e315",
+		"7ba324e2-bcff-fe33-3288-ab37c00161ca"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1615189179824,
+	"owner": "11206174",
+	"public": false,
+	"requests": [
+		{
+			"id": "01922190-4117-a104-ca9e-504e5cbbc982",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "45a0d415-a872-8571-c5b5-1eb442602b63",
+			"data": null,
+			"dataMode": "params",
+			"name": "userlist and user create",
+			"description": "s",
+			"descriptionFormat": "html",
+			"time": 1615189214664,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "69959e29-458c-16cd-ef7d-585ca561e315",
+			"headers": "Authorization: Token  bdf7d457267ad927827abfa3adb6cb23237db1f5\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token  bdf7d457267ad927827abfa3adb6cb23237db1f5",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/question/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "45a0d415-a872-8571-c5b5-1eb442602b63",
+			"data": [
+				{
+					"key": "email",
+					"value": "222@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "arvind123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "first_name",
+					"value": "arvind",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "yadav",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_type",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "question posted by user api",
+			"description": "question posted by user",
+			"descriptionFormat": "html",
+			"time": 1615190234553,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7ba324e2-bcff-fe33-3288-ab37c00161ca",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/login/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "45a0d415-a872-8571-c5b5-1eb442602b63",
+			"data": [
+				{
+					"key": "username",
+					"value": "arvind",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "api/login",
+			"description": "login api",
+			"descriptionFormat": "html",
+			"time": 1615190286104,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8d1b79da-ce0b-c6ea-0b87-89360c8c7b1e",
+			"headers": "Authorization: Token bdf7d457267ad927827abfa3adb6cb23237db1f5\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token bdf7d457267ad927827abfa3adb6cb23237db1f5",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/createuser/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "45a0d415-a872-8571-c5b5-1eb442602b63",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "arvind",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "yadav",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "arvind21231@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin@123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_type",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "arvind561",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "api/createuser/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1615190121729,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "900cb1e5-e287-30b1-bb7b-b684239c5719",
+			"headers": "Authorization: Token bdf7d457267ad927827abfa3adb6cb23237db1f5\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token bdf7d457267ad927827abfa3adb6cb23237db1f5",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/userype/filter/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "45a0d415-a872-8571-c5b5-1eb442602b63",
+			"data": [
+				{
+					"key": "user_type",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "userype/filter/",
+			"description": "userype filter",
+			"descriptionFormat": "html",
+			"time": 1615190149760,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
